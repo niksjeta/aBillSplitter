@@ -1,0 +1,86 @@
+body{
+    background-image: url(DSCN4778.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+a:link{
+    color: seagreen;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+a:active{
+    color: blue;
+}
+
+button:hover{
+    background-color: seagreen;
+    color: pink;
+}
+
+button:active{
+    background-color: seagreen;
+    color: pink;
+}
+
+h1{
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+}
+
+h1:hover{
+    box-shadow: 5px 5px 5px;
+}
+
+.fa-splotch{
+    color: pink;
+}
+.fa-candy-cane{
+    color:lightskyblue;
+}
+.fa-cookie-bite{
+    color: palevioletred;
+}
+
+#box1{
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background: plum;
+
+   
+}
+#box1:hover{
+    animation: mySlide;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes mySlide{
+    from{margin-left: 100px;}
+    to{margin-left: 0px;}
+}
+
+@keyframes myRotate{
+    /*100%{transform: rotatex(360deg)}*/
+    100%{transform: rotatex(360deg)}
+
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myScale{
+    50%
+}
